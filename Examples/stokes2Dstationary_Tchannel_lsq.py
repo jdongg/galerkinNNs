@@ -71,9 +71,9 @@ def main():
     H1DivergenceFlag = 1    # flag for toggling H1 seminorm terms of divergence equation
     isExtended = True       # flag for toggling extended NN architecture
     withCutoff = True       # use cutoff function to isolate singular functions
-    beta = 2.0/3.0          # weight for Sobolev spaces, i.e. r^beta
+    beta = 4.0/3.0          # weight for Sobolev spaces, i.e. r^beta
 
-    MAX_EPOCH = 200             # maxmimum epochs for training each basis function
+    MAX_EPOCH = 500             # maxmimum epochs for training each basis function
     MAX_REFS = 6                # maximum number of basis functions for subspace
     INIT_NEURONS = 20           # width of hidden layers for first basis function
     INIT_SCALE = 1.0            # currently unused

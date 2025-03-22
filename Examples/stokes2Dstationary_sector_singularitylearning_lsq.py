@@ -5,7 +5,7 @@ np.set_printoptions(threshold=sys.maxsize)
 import os
 from QuadratureRules.QuadratureRules import QuadratureRules
 
-RESULTS_PATH = 'stokes2Dstationary_Tchannel'
+RESULTS_PATH = 'stokes2Dstationary_singularitylearning'
 if not os.path.exists(RESULTS_PATH):
     os.makedirs(RESULTS_PATH)
 
