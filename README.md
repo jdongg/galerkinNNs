@@ -9,6 +9,7 @@ Examples included here are:
 To do: streamline implementation of variational formulation to reduce number of locations code must be changed when implementing new problems, enable GPU support for matrix assembly
 
 [1] Ainsworth, M., & Dong, J. (2021). [Galerkin neural networks: A framework for approximating variational equations with error control](https://arxiv.org/abs/2105.14094). SIAM Journal on Scientific Computing, 43(4), A2474-A2501.
+
 [2] Ainsworth, M., & Dong, J. (2024). [Extended Galerkin neural network approximation of singular variational problems with error control](https://arxiv.org/abs/2405.00815). arXiv preprint arXiv:2405.00815.
 
 This implementation is built on [JAX](https://github.com/google/jax) and will also require SciPy and matplotlib. Optional packages include joblib (CPU parallelization of linear coefficient updates).
